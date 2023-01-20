@@ -1,0 +1,135 @@
+@charset "UTF- 8";
+/*
+paleta de cores
+#4584B5
+#2D5675
+#5EB3F5
+#142736
+#53A0DB
+*/
+@font-face {
+    font-family: 'Bebas';
+    src: url(BebasNeueBold/BebasNeue\ Regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: 'android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0px;
+    background-color: #19e66e4f;
+    
+}
+.cabeçalho{
+    background-image: linear-gradient(to top, #06361A, #2FA663 );
+    margin: 0px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    
+}
+.cabeçalho > h1{
+    text-align: center;
+    font-family: Bebas ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    
+}
+.cabeçalho > h2{        
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.cabeçalho > nav > a{
+    padding: 3px 13px 3px 13px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin: 10px;
+}
+.cabeçalho > nav > a:hover{
+    background-color: #2FA663 ;
+}
+.conteudo > section > h1{
+    font-family: android, 'Arial', sans-serif;
+    font-size: 1.6em;
+    color: #0a5a2b;
+    margin: 0px;
+    
+}
+.conteudo > section > h2{
+    
+    font-family: android, 'Arial', sans-serif;
+    font-size: 1.2em;
+    color: #0a5a2b;
+    background-image:linear-gradient(to right,#19e66e4f, white);    
+    
+}
+.conteudo > section{
+    
+    padding: 0px 16px;
+    
+}
+
+.conteudo > section > picture{
+    margin: auto;
+    
+}
+
+.conteudo{    
+    max-width: 800px;
+    margin: auto;    
+    background-color: white;   
+}
+.seçaovideo {
+    background-color: #0a5a2b;
+    padding: 16px;
+}
+.extra{
+    background-color:#19e66e4f ;
+    padding-bottom: 16px;
+    border-radius: 15px;
+}
+.extra > h3{
+    margin-top: 16px;
+    padding: 16px;
+    background-color:#0a5a2b ;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.final{        
+    margin-bottom: 16px;
+    border-bottom-left-radius: 15px;
+    
+}
+.final > p{
+    margin: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+}
+footer > p{
+    background-color: #0a5a2b ;
+    padding: 10px;
+    margin: 0px;
+}
+.conteudo > section > p > a{
+    color: #06361A;
+    text-decoration: none;
+    font-weight: 600;
+} 
+
+

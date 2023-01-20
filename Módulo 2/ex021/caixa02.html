@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            border-radius: 2px 10px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 15px 6px 5px 2px #00000042;
+            
+        }
+        nav{
+            background-color: grey;
+            padding: 3px;
+            box-shadow: 15px 6px 5px 2px #00000042;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            border-radius: 2px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 15px 6px 5px 2px #00000042;
+        }
+        h1{
+            box-shadow: 15px 6px 5px 2px #00000042
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color:rgb(179, 178, 178) ;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+          margin: 0px;  
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 2px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <!--header, main e foooter são tipos de DIV só que elas contém semântica-->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="3">Link</a>
+            <a href="3">Link</a>
+            <a href="3">Link</a>
+            <a href="3">Link</a>
+            <a href="3">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <h2>Notícias sobre o Brasil</h2>
+            <article>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate nobis natus non veniam nulla ratione enim dolorem dignissimos aperiam expedita odit veritatis vero velit, provident optio nihil sit ut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae maxime numquam commodi minima earum quibusdam fugiat labore velit enim vel veniam facere a ducimus, laudantium rerum illum doloribus obcaecati asperiores?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus facilis, obcaecati dolor id optio inventore saepe a deleniti amet et ullam quasi repudiandae ab provident quod numquam asperiores dicta eum?
+                </p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        
+        <p>Desenvolvido por CursoemVideo</p>
+        
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
