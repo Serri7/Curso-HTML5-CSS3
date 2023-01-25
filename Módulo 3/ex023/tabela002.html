@@ -17,9 +17,25 @@
             border: 1px solid black;
             padding: 10px;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
         thead, tfoot{
             background-color: grey;
             color: white;
+        }
+        tbody tr:nth-child(even){/*(3n) -> de 3 em 3 linhas o fundo vai ter a cor lighgrey
+        (odd) -> as linhas impares terão o fundo de cor lightgray
+        (even) - > as linhas impares terão o fundo de cor lightgray
+            */
+            background-color: lightgray;
+        }
+        tbody tr:nth-child(odd){
+            background-color: white;
+            font-weight: bold;
         }
         td.num{
             text-align: right;
@@ -31,6 +47,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!-- Anatomia de tabelas grandes
         TABLE
+            CAPTION
             THEAD
                 TR,TD,TH
             TBODY
@@ -39,10 +56,12 @@
                 TR,TD,TH
     -->
     <table>
+        <caption>População das Unidades Ferativas</caption>
+        <!-- a declaração do escopo não gera nenhum resultado visual é apenas para dar semantica a tabela e facilitar os mecanismos de buscas-->
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
             
@@ -125,7 +144,7 @@
             </tr>
             <tr>
                 <td>Distrito Federal</td>
-                <td class="num">2,923,369</td>
+                <td class="num">2 923 369</td>
             </tr>
             <tr>
                 <td>Mato Grosso do Sul</td>
@@ -160,8 +179,8 @@
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
-                <td class="num"><strong>xxx xxx xxx</strong></td>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>210 147 125</strong></td>
             </tr>
         </tfoot>
     </table>
