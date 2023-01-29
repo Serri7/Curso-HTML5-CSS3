@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+      
+    background-image: url("imagens/fundo-madeira.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 96vh;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+main{
+    position: absolute;
+    background-image: url("imagens/frame-iphone.png");    
+    background-size: 100% 100%;
+    width: 311px;
+    height: 627px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+main > iframe{    
+    position: absolute;
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 266px;
+    height:470px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);   
+    
+    
+}
+
+form.barralat{  
+    position: relative;
+    float: right;
+    padding: 10px;
+    padding-top: 25px;
+    
+}
+div.icone{
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
+}
+div#home:hover{
+    position: absolute;
+    left: 1px;
+    
+    
+}
+div#home{
+    background-image: url("imagens/logo-home.jpg");    
+
+}
+div#YT{
+    background-image: url("imagens/logo-youtube.jpg");    
+    
+}
+div#Git{
+    background-image: url("imagens/logo-github.jpg");   
+    
+}
+div#insta{
+    background-image: url("imagens/logo-instagram.jpg");    
+    
+}
