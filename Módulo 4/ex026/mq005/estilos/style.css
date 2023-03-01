@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body, html{
+    background-color: lightgrey;
+}
+p{
+    text-indent: 30px;
+}
